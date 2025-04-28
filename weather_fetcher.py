@@ -15,9 +15,8 @@ class WeatherFetcher:
     def __init__(self, api_key: str):
         """Initialize the WeatherFetcher
         
-        Args:
-            api_key: OpenWeatherMap API key
         """
+        
         self._api_key = api_key
         self._base_url = "https://api.openweathermap.org/data/2.5"
     

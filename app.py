@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Get API key from environment variable
-api_key = os.getenv("OPENWEATHERMAP_API_KEY", "")
+api_key = os.getenv("OPENWEATHERMAP_API_KEY", "c52f8db36617881e6605e191bf2b5d06")
 if not api_key:
     logger.warning("No OpenWeatherMap API key found! Please set the OPENWEATHERMAP_API_KEY environment variable.")
 
