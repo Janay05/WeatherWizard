@@ -14,15 +14,20 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "Weather App"
+args = "Weather App Web"
 
 [[workflows.workflow]]
-name = "Weather App"
+name = "Weather App Web"
 author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "pip install customtkinter pillow requests && python main.py"
+args = "python app.py"
+waitForPort = 5000
 
 [deployment]
 run = ["sh", "-c", "pip install customtkinter pillow requests && python main.py"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
