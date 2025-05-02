@@ -70,7 +70,7 @@ weather-wizard/
 
 ## 🧠 How It Works
 
-* `weather.py`: Contains the `WeatherApp` class that fetches data from the API.
+* `weather_fetcher.py`: This module contains the WeatherFetcher class that handles API calls to fetch weather data.
 * `app.py`: Main Flask app that handles routes and renders the UI.
 * HTML/CSS files for the frontend interface.
 
