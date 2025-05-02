@@ -24,24 +24,17 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-wizard.git
+   git clone https://github.com/Janay05/WeatherWizard.git
    cd weather-wizard
    ```
 
-2. Create a virtual environment and activate it:
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # For Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Set up your API key:
+3. Set up your API key:
 
    * Create a `.env` file and add:
 
@@ -49,7 +42,7 @@
      WEATHER_API_KEY=your_api_key_here
      ```
 
-5. Run the app:
+4. Run the app:
 
    ```bash
    flask run
